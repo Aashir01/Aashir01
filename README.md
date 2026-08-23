@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=800&color=38BDAE&center=true&vCenter=true&width=700&lines=I+build+LLM+systems+that+hold+up+in+production.;Agent+orchestration+%C2%B7+retrieval+%C2%B7+guardrails+%C2%B7+evals;550%2B+tests+across+four+flagship+systems.;Open+to+remote+AI+Engineering+roles." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=800&color=38BDAE&center=true&vCenter=true&width=700&lines=I+build+LLM+systems+that+hold+up+in+production.;Agent+orchestration+%C2%B7+retrieval+%C2%B7+guardrails+%C2%B7+evals;820+tests+across+six+shipped+systems.;Open+to+remote+AI+Engineering+roles." alt="Typing SVG" />
   </a>
 </p>
 
@@ -32,7 +32,7 @@ location:   Pakistan (UTC+5) — remote-first, overlaps EU fully & US mornings
 status:     Open to remote AI/ML roles and long-term contracts
 ```
 
-- 🏗️ Four production-grade systems in the open, carrying **185 / 163 / 119 / 89 tests** respectively — engines, guardrails, and eval suites, not notebooks.
+- 🏗️ Six production-grade systems in the open, carrying **820 tests** between them — engines, guardrails, and eval suites, not notebooks.
 - 🛡️ Specialism in the **trust layer of AI systems**: prompt-injection defence, signed execution, spend ceilings, human-in-the-loop enforcement, honest statistics.
 - 🏆 **Top Rated** on Upwork, delivering AI/ML work for international clients since 2023.
 - 🌍 Former **Omdena** collaborator (Sri Lankan Autism Prediction Project, 2023–2024).
@@ -42,6 +42,9 @@ status:     Open to remote AI/ML roles and long-term contracts
 
 ## 🚀 Flagship Work
 
+> Six systems, 820 tests. Each card links to a repo with a full README, a runnable
+> demo that needs no API key, and a *Known limitations* section.
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -49,7 +52,7 @@ status:     Open to remote AI/ML roles and long-term contracts
 ### 🚢 Meridian — Autonomous Logistics Control Plane
 An agent mesh that watches ports, vessels and inventory, detects disruptions, and executes a response against ERP/TMS/WMS — inside limits a model cannot talk its way past.
 
-**Why it's hard:** the graph is *cyclic* — a Resilience Analyst can veto the Broker's diversion and send the decision back rather than moving the bottleneck somewhere worse.
+**Why it's hard:** the graph is *cyclic*. A Resilience Analyst can veto the Broker's diversion and send the decision back, rather than moving the bottleneck somewhere worse.
 
 `Tiered autonomy` · `Ed25519-signed execution` · `Monte Carlo CVaR₉₀ ranking`
 `Brandes betweenness + cascade sim` · `3-layer injection quarantine`
@@ -61,6 +64,25 @@ An agent mesh that watches ports, vessels and inventory, detects disruptions, an
 [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aashir01/Supply-Chain-and-Logistics-Agentic-system)
 
 </td>
+<td width="50%" valign="top">
+
+### 🛡️ VisaGuard — Visa Document Intelligence
+Scans a visa application bundle and reports what's wrong before the consulate does: missing documents, name mismatches across files, insufficient funds, expired cover, non-compliant photos.
+
+**Why it's hard:** the Schengen refusal decoder is **deterministic and free** — Annex VI fixes eleven numbered grounds, so it matches official wording instead of guessing with a model. Decoded refusals are then graded against the check that preceded them, turning real casework into a ranked work queue for the rule packs.
+
+`11 corridors, provenance-tagged rules` · `ICAO 9303 MRZ check digits`
+`Deterministic-first, 2–3 LLM calls per bundle` · `Hard per-check spend cap`
+
+**Stack:** FastAPI · Next.js · Claude / DeepSeek · Tesseract · Fernet-encrypted PHI
+
+![tests](https://img.shields.io/badge/tests-224-38BDAE?style=flat-square)
+![cost](https://img.shields.io/badge/free%20tier-%240.00%2Fcheck-6E56CF?style=flat-square)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aashir01/Visa-Check)
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🏥 Medical Insurance Appeals Bot
@@ -78,14 +100,12 @@ Reads denial letters, drafts legally grounded appeals, and routes every one to a
 [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aashir01/Medical-Insurance-Appeal-Bots)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📖 Quran Research Agent
 Deterministic retrieval and agentic research over a closed corpus — 6,236 ayat, 130k morphological segments, 1,651 roots. Ask for every occurrence of a root and you get **all 854**, computed in SQL, not the twenty most similar.
 
-**Why it's hard:** scripture is rendered from Postgres via placeholders, never generated. Unresolvable references fail visibly instead of producing plausible text.
+**Why it's hard:** scripture is rendered from Postgres via placeholders, never generated. An unresolvable reference fails visibly instead of producing plausible text.
 
 `Exhaustive > probabilistic retrieval` · `Multiple-comparison correction by default`
 `Violations serialised before support` · `MCP server (14 tools)`
@@ -95,6 +115,25 @@ Deterministic retrieval and agentic research over a closed corpus — 6,236 ayat
 ![tests](https://img.shields.io/badge/tests-89-38BDAE?style=flat-square)
 ![eval](https://img.shields.io/badge/golden%20eval-53%20items-38BDAE?style=flat-square)
 [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aashir01/Quran-Research-Agent)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧰 mini-agent — A Coding Agent, Built to Be Read
+The agent loop is about nine lines. Everything else — the part that takes months — is the machinery around it. This builds that machinery in six visible stages, across 12 model providers behind two wire protocols.
+
+**Why it's hard:** the edit-application ladder. When the model's "replace X with Y" doesn't match byte-for-byte, progressively looser passes retry — but **each must find exactly one match**. Ambiguity is always an error, never a guess.
+
+`Schema-level plan mode (write tools absent, not blocked)` · `Shadow-git undo`
+`Tool-result offloading + prefix-stable prompt caching` · `Monotonic verification ledger`
+
+**Stack:** TypeScript · Node 22+ · Anthropic Messages + OpenAI Chat transports
+
+![tests](https://img.shields.io/badge/tests-40-38BDAE?style=flat-square)
+![license](https://img.shields.io/badge/license-MIT-4B5563?style=flat-square)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aashir01/agent-cli)
 
 </td>
 <td width="50%" valign="top">
@@ -213,11 +252,12 @@ These aren't slogans — each one is load-bearing in the repos above.
 
 | Project | What it is | Tech |
 |---|---|---|
+| [DataSense AI](https://github.com/Aashir01/AI-Data-Analyst-Agent) | Full-stack SaaS data-analyst agent — profiling, IsolationForest anomalies, forecasts, chat-with-data behind a whitelisted query planner | Next.js, FastAPI, Postgres, Redis/RQ |
 | [Enterprise AI Knowledge Assistant](https://github.com/Aashir01/Enterprise-AI-Knowledge-Assistant) | Production RAG assistant for enterprise document search — hybrid retrieval, source-grounded answers, containerised | FastAPI, LangChain, FAISS/Qdrant |
-| [AI Data Analyst Agent](https://github.com/Aashir01/AI-Data-Analyst-Agent) | Conversational agent that explores datasets, writes and runs analysis code, explains results | Python, tool-calling, pandas |
-| [agent-cli](https://github.com/Aashir01/agent-cli) | A coding-agent CLI built from scratch | TypeScript |
+| [El Madina Viajes](https://github.com/Aashir01/EL-MADINA-VIAJES) | Tour-booking platform: a dating/pricing engine that rebuilds a full itinerary around any departure date, shared by UI and API so they can't disagree | Next.js, TypeScript, Vitest |
+| [Hierarchical Agent Swarm](https://github.com/Aashir01/hierarchical-agent-swarm) | Manager–worker tree coordinating 100+ agents with results bubbling from leaves to root | Python |
 | [Nexus Motion](https://github.com/Aashir01/nexus-motion-AI-video-agency) | Multi-agent pipeline automating end-to-end video production | Python, multi-agent |
-| [Visa Check](https://github.com/Aashir01/Visa-Check) · [Spain Appointment Bot](https://github.com/Aashir01/spain-visa-appointment-bot) | Appointment tracking and notification automation | Python |
+| [Spain Appointment Bot](https://github.com/Aashir01/spain-visa-appointment-bot) | Appointment tracking and notification automation | Python |
 | [March ML Mania 2026](https://github.com/Aashir01/-March-Machine-Learning-Mania-2026) | Kaggle tournament model — Elo, Pythagorean efficiency, Massey Ordinals, calibrated ensembles | Python, scikit-learn |
 | [My Portfolio](https://github.com/Aashir01/My_Portfolio) | Personal site — [aashirnoman.online](https://aashirnoman.online) | TypeScript, React |
 | [Deep Learning Projects](https://github.com/Aashir01/Deep-Learning-Projects) | Applied DL notebooks and experiments | Jupyter, PyTorch |

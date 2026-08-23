@@ -42,8 +42,8 @@ status:     Open to remote AI/ML roles and long-term contracts
 
 ## 🚀 Flagship Work
 
-> Six systems, 820 tests. Each card links to a repo with a full README, a runnable
-> demo that needs no API key, and a *Known limitations* section.
+> Six systems, 820 tests between them — every count taken from that repo's own suite.
+> Five of the six run end-to-end with no API key, on deterministic or synthetic fallbacks.
 
 <table>
 <tr>
@@ -169,7 +169,7 @@ These aren't slogans — each one is load-bearing in the repos above.
 | **Guardrails may only tighten.** | Tier rules can raise an action's tier, never lower it, so a new rule can never widen autonomy by accident. Spend ceilings and treasury caps are pure code. |
 | **Degrade, never stop.** | Every system boots with no API key and no vendor: deterministic policies, synthetic providers, offline engines. You can evaluate the whole product before signing anything. |
 | **Report the number chance predicts.** | Testing 1,651 roots at p<0.05 yields ~83 "findings" from noise. The correction is applied before results return — not offered as an option. |
-| **Name the gaps.** | Every README has a *Known limitations* section. A tool that hides them is worse than no tool. |
+| **Name the gaps.** | VisaGuard, MFIE, mini-agent and the Appeals Bot each close their README by naming what isn't built — unimplemented fax delivery, synthetic eval cases, unfitted thresholds. A tool that hides those is worse than no tool. |
 
 ---
 

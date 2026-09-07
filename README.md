@@ -1,12 +1,10 @@
 <!-- ═══════════════════════════ BANNER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Aashir%20Noman&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Applied%20ML&descAlignY=55&descSize=18" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aashir01/Aashir01/main/assets/banner.svg" alt="Aashir Noman — AI Engineer · Agentic Systems · Applied ML" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=800&color=38BDAE&center=true&vCenter=true&width=700&lines=I+build+LLM+systems+that+hold+up+in+production.;Agent+orchestration+%C2%B7+retrieval+%C2%B7+guardrails+%C2%B7+evals;820+tests+across+six+shipped+systems.;Open+to+remote+AI+Engineering+roles." alt="Typing SVG" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Aashir01/Aashir01/main/assets/tagline.svg" alt="I build LLM systems that hold up in production. Agent orchestration, retrieval, guardrails, evals. 820 tests across six shipped systems. Open to remote AI Engineering roles." width="760" />
 </p>
 
 <!-- ═══════════════════════════ LINKS ═══════════════════════════ -->
@@ -266,19 +264,6 @@ These aren't slogans — each one is load-bearing in the repos above.
 
 ---
 
-## 📈 GitHub Analytics
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aashir01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDAE&icon_color=38BDAE&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aashir01&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDAE&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Aashir01&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=38BDAE&line=38BDAE&point=FFFFFF&area=true" alt="Contribution Graph" />
-</p>
-
----
-
 ## 🤝 Let's work together
 
 I'm open to **remote AI/ML engineering roles** and **long-term consulting engagements** — especially where an LLM system has to be trusted with something consequential: agent orchestration, retrieval over proprietary corpora, guardrails and approval workflows, or evaluation infrastructure for a team that's shipping fast and flying blind.
@@ -292,10 +277,5 @@ I'm open to **remote AI/ML engineering roles** and **long-term consulting engage
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Aashir01&label=Profile%20views&color=38BDAE&style=flat-square" alt="Profile views" />
   <a href="https://github.com/Aashir01?tab=followers"><img src="https://img.shields.io/github/followers/Aashir01?label=Followers&style=flat-square&color=38BDAE" alt="Followers"/></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" />
 </p>

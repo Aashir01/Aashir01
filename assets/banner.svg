@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Aashir Noman — AI Engineer, Agentic Systems, Applied ML">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="50%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDAE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDAE" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#38BDAE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="200" fill="url(#g)"/>
+
+  <!-- decorative wave, echoing the previous header -->
+  <path d="M0 150 C 150 120, 250 180, 400 152 S 650 118, 800 150 S 950 172, 1000 158 L1000 200 L0 200 Z"
+        fill="#38BDAE" opacity=".07"/>
+  <path d="M0 168 C 180 140, 300 192, 470 168 S 720 140, 860 168 S 980 182, 1000 176 L1000 200 L0 200 Z"
+        fill="#38BDAE" opacity=".05"/>
+
+  <text x="500" y="92" text-anchor="middle"
+        font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="52" font-weight="700" fill="#ffffff" letter-spacing="1">Aashir Noman</text>
+
+  <rect x="400" y="112" width="200" height="2" fill="url(#accent)"/>
+
+  <text x="500" y="144" text-anchor="middle"
+        font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="500" fill="#cfe9e6" letter-spacing="3">AI ENGINEER &#183; AGENTIC SYSTEMS &#183; APPLIED ML</text>
+</svg>

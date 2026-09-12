@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════ BANNER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aashir01/Aashir01/main/assets/banner.svg" alt="Aashir Noman — AI Engineer · Agentic Systems · Applied ML" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aashir01/Aashir01/main/assets/banner.svg" alt="Aashir Noman, AI Engineer working on agentic systems and applied ML" width="100%" />
 </p>
 
 <p align="center">
@@ -20,35 +20,35 @@
 
 ## What I do
 
-I build **LLM systems that are allowed to touch real money, real patients, and real decisions** — which means most of my work is the part that isn't the prompt: deterministic fallbacks, tiered autonomy limits, injection boundaries, human approval gates, and evaluation harnesses that fail the build.
+I build **LLM systems that get to touch real money, real patients and real decisions.** Most of my actual work has very little to do with prompting. It goes into the deterministic fallbacks, the spend limits, the injection boundaries, the approval gates, and the eval suites that fail a build when accuracy slips.
 
 ```yaml
 name:       Aashir Noman
 role:       AI / ML Engineer  ·  agentic systems, retrieval, applied ML
 stack:      Python · FastAPI · LangGraph · Claude · Postgres · Docker
-location:   Pakistan (UTC+5) — remote-first, overlaps EU fully & US mornings
+location:   Pakistan (UTC+5). Remote-first, full EU overlap, US mornings
 status:     Open to remote AI/ML roles and long-term contracts
 ```
 
-- 🏗️ Six production-grade systems in the open, carrying **820 tests** between them — engines, guardrails, and eval suites, not notebooks.
-- 🛡️ Specialism in the **trust layer of AI systems**: prompt-injection defence, signed execution, spend ceilings, human-in-the-loop enforcement, honest statistics.
+- 🏗️ Six production systems in the open, with **820 tests** between them. Engines, guardrails and eval suites, not notebooks.
+- 🛡️ Most of my work sits in the **trust layer**: prompt-injection defence, signed execution, spend ceilings, human approval, honest statistics.
 - 🏆 **Top Rated** on Upwork, delivering AI/ML work for international clients since 2023.
-- 🌍 Former **Omdena** collaborator (Sri Lankan Autism Prediction Project, 2023–2024).
-- 📊 Active on Kaggle — March Machine Learning Mania with Elo, Massey Ordinals, and temperature-scaled ensembles.
+- 🌍 Former **Omdena** collaborator on the Sri Lankan Autism Prediction Project (2023-2024).
+- 📊 Active on Kaggle. My March Machine Learning Mania entry used Elo ratings, Massey Ordinals and temperature-scaled ensembles.
 
 ---
 
 ## 🚀 Flagship Work
 
-> Six systems, 820 tests between them — every count taken from that repo's own suite.
-> Five of the six run end-to-end with no API key, on deterministic or synthetic fallbacks.
+> Six systems, 820 tests between them. Every count comes from that repo's own suite.
+> Five of the six run end to end with no API key, on deterministic or synthetic fallbacks.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🚢 Meridian — Autonomous Logistics Control Plane
-An agent mesh that watches ports, vessels and inventory, detects disruptions, and executes a response against ERP/TMS/WMS — inside limits a model cannot talk its way past.
+### 🚢 Meridian: Autonomous Logistics Control Plane
+An agent mesh that watches ports, vessels and inventory, spots disruptions, and executes a response against ERP/TMS/WMS. It works inside limits no model can talk its way past.
 
 **Why it's hard:** the graph is *cyclic*. A Resilience Analyst can veto the Broker's diversion and send the decision back, rather than moving the bottleneck somewhere worse.
 
@@ -64,13 +64,13 @@ An agent mesh that watches ports, vessels and inventory, detects disruptions, an
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ VisaGuard — Visa Document Intelligence
+### 🛡️ VisaGuard: Visa Document Intelligence
 Scans a visa application bundle and reports what's wrong before the consulate does: missing documents, name mismatches across files, insufficient funds, expired cover, non-compliant photos.
 
-**Why it's hard:** the Schengen refusal decoder is **deterministic and free** — Annex VI fixes eleven numbered grounds, so it matches official wording instead of guessing with a model. Decoded refusals are then graded against the check that preceded them, turning real casework into a ranked work queue for the rule packs.
+**Why it's hard:** the Schengen refusal decoder is **deterministic and free**. Annex VI fixes eleven numbered grounds, so it matches official wording rather than guessing with a model. Decoded refusals then get graded against the check that preceded them, which turns real casework into a ranked work queue for the rule packs.
 
 `11 corridors, provenance-tagged rules` · `ICAO 9303 MRZ check digits`
-`Deterministic-first, 2–3 LLM calls per bundle` · `Hard per-check spend cap`
+`Deterministic-first, 2-3 LLM calls per bundle` · `Hard per-check spend cap`
 
 **Stack:** FastAPI · Next.js · Claude / DeepSeek · Tesseract · Fernet-encrypted PHI
 
@@ -86,7 +86,7 @@ Scans a visa application bundle and reports what's wrong before the consulate do
 ### 🏥 Medical Insurance Appeals Bot
 Reads denial letters, drafts legally grounded appeals, and routes every one to a licensed human before it leaves the building. The AI never sends anything on its own.
 
-**Why it's hard:** the liability rule is enforced in **three independent layers** — role gate, authorization gate, delivery gate — with a test suite that fails the build if any of them regresses.
+**Why it's hard:** the liability rule is enforced in **three independent layers** (role gate, authorization gate, delivery gate), and a test suite fails the build if any one of them regresses.
 
 `LangGraph state machine` · `HIPAA / PHI-at-rest encryption` · `X12 835 EDI intake`
 `Zero-downtime key rotation` · `Weighted extraction evals as a CI gate`
@@ -101,7 +101,7 @@ Reads denial letters, drafts legally grounded appeals, and routes every one to a
 <td width="50%" valign="top">
 
 ### 📖 Quran Research Agent
-Deterministic retrieval and agentic research over a closed corpus — 6,236 ayat, 130k morphological segments, 1,651 roots. Ask for every occurrence of a root and you get **all 854**, computed in SQL, not the twenty most similar.
+Deterministic retrieval and agentic research over a closed corpus of 6,236 ayat, 130k morphological segments and 1,651 roots. Ask for every occurrence of a root and you get **all 854**, computed in SQL, not the twenty most similar.
 
 **Why it's hard:** scripture is rendered from Postgres via placeholders, never generated. An unresolvable reference fails visibly instead of producing plausible text.
 
@@ -119,10 +119,10 @@ Deterministic retrieval and agentic research over a closed corpus — 6,236 ayat
 <tr>
 <td width="50%" valign="top">
 
-### 🧰 mini-agent — A Coding Agent, Built to Be Read
-The agent loop is about nine lines. Everything else — the part that takes months — is the machinery around it. This builds that machinery in six visible stages, across 12 model providers behind two wire protocols.
+### 🧰 mini-agent: A Coding Agent, Built to Be Read
+The agent loop is about nine lines long. The machinery around it is the part that takes months, and this builds that machinery in six visible stages, across 12 model providers behind two wire protocols.
 
-**Why it's hard:** the edit-application ladder. When the model's "replace X with Y" doesn't match byte-for-byte, progressively looser passes retry — but **each must find exactly one match**. Ambiguity is always an error, never a guess.
+**Why it's hard:** the edit-application ladder. When the model's "replace X with Y" doesn't match byte-for-byte, progressively looser passes retry, but **each one must find exactly one match**. Ambiguity is always an error, never a guess.
 
 `Schema-level plan mode (write tools absent, not blocked)` · `Shadow-git undo`
 `Tool-result offloading + prefix-stable prompt caching` · `Monotonic verification ledger`
@@ -136,10 +136,10 @@ The agent loop is about nine lines. Everything else — the part that takes mont
 </td>
 <td width="50%" valign="top">
 
-### 📈 MFIE — Macro-Informed Financial Intelligence Engine
+### 📈 MFIE: Macro-Informed Financial Intelligence Engine
 Treats a chart pattern as a *hypothesis* and the macroeconomy as the *evidence*. A setup becomes a signal only after surviving a chain of econometric filters.
 
-**Why it's hard:** the Market Cycle Compass corrects for **overlapping observations** — a factor scoring t = −7.3 uncorrected measured t ≈ −0.9 once corrected. On synthetic data it correctly reports *no measurable edge*.
+**Why it's hard:** the Market Cycle Compass corrects for **overlapping observations**. A factor scoring t = -7.3 uncorrected came out at t ≈ -0.9 once the correction was applied. On synthetic data it correctly reports *no measurable edge*.
 
 `Asymmetric filters (veto freely, boost ≤1.25×)` · `Lead-aligned factor aggregation`
 `Non-monotonic curve regime` · `Quarter-Kelly + portfolio CVaR budget`
@@ -158,16 +158,16 @@ Treats a chart pattern as a *hypothesis* and the macroeconomy as the *evidence*.
 
 ## 🧭 How I build AI systems
 
-These aren't slogans — each one is load-bearing in the repos above.
+None of these are slogans. Each one is load-bearing in the repos above.
 
 | Principle | Where it shows up |
 |---|---|
-| **Compute what code can compute.** | Distances, draft limits, legal driving hours and days-of-cover are arithmetic. The model is asked only what code cannot settle — and infeasible options are filtered out *before* it ever sees them. |
+| **Compute what code can compute.** | Distances, draft limits, legal driving hours and days-of-cover are arithmetic. The model only gets asked what code cannot settle, and infeasible options are filtered out *before* it ever sees them. |
 | **Treat all external text as hostile.** | Vessel names, headlines and recalled memories reach prompts and none are written by the operator. Structural fencing → detective scoring → quarantine, backed by tests for what must *not* be flagged. |
 | **Guardrails may only tighten.** | Tier rules can raise an action's tier, never lower it, so a new rule can never widen autonomy by accident. Spend ceilings and treasury caps are pure code. |
 | **Degrade, never stop.** | Every system boots with no API key and no vendor: deterministic policies, synthetic providers, offline engines. You can evaluate the whole product before signing anything. |
-| **Report the number chance predicts.** | Testing 1,651 roots at p<0.05 yields ~83 "findings" from noise. The correction is applied before results return — not offered as an option. |
-| **Name the gaps.** | VisaGuard, MFIE, mini-agent and the Appeals Bot each close their README by naming what isn't built — unimplemented fax delivery, synthetic eval cases, unfitted thresholds. A tool that hides those is worse than no tool. |
+| **Report the number chance predicts.** | Testing 1,651 roots at p<0.05 yields ~83 "findings" from noise. The correction is applied before results return. It isn't a switch anyone can turn off. |
+| **Name the gaps.** | VisaGuard, MFIE, mini-agent and the Appeals Bot each close their README by naming what isn't built: unimplemented fax delivery, synthetic eval cases, unfitted thresholds. A tool that hides those is worse than no tool. |
 
 ---
 
@@ -250,14 +250,14 @@ These aren't slogans — each one is load-bearing in the repos above.
 
 | Project | What it is | Tech |
 |---|---|---|
-| [DataSense AI](https://github.com/Aashir01/AI-Data-Analyst-Agent) | Full-stack SaaS data-analyst agent — profiling, IsolationForest anomalies, forecasts, chat-with-data behind a whitelisted query planner | Next.js, FastAPI, Postgres, Redis/RQ |
-| [Enterprise AI Knowledge Assistant](https://github.com/Aashir01/Enterprise-AI-Knowledge-Assistant) | Production RAG assistant for enterprise document search — hybrid retrieval, source-grounded answers, containerised | FastAPI, LangChain, FAISS/Qdrant |
+| [DataSense AI](https://github.com/Aashir01/AI-Data-Analyst-Agent) | Full-stack SaaS data-analyst agent. Profiling, IsolationForest anomalies, forecasts, and chat-with-data behind a whitelisted query planner | Next.js, FastAPI, Postgres, Redis/RQ |
+| [Enterprise AI Knowledge Assistant](https://github.com/Aashir01/Enterprise-AI-Knowledge-Assistant) | Production RAG assistant for enterprise document search, with hybrid retrieval, source-grounded answers and a containerised deploy | FastAPI, LangChain, FAISS/Qdrant |
 | [El Madina Viajes](https://github.com/Aashir01/EL-MADINA-VIAJES) | Tour-booking platform: a dating/pricing engine that rebuilds a full itinerary around any departure date, shared by UI and API so they can't disagree | Next.js, TypeScript, Vitest |
-| [Hierarchical Agent Swarm](https://github.com/Aashir01/hierarchical-agent-swarm) | Manager–worker tree coordinating 100+ agents with results bubbling from leaves to root | Python |
+| [Hierarchical Agent Swarm](https://github.com/Aashir01/hierarchical-agent-swarm) | Manager/worker tree coordinating 100+ agents, with results bubbling from leaves up to the root | Python |
 | [Nexus Motion](https://github.com/Aashir01/nexus-motion-AI-video-agency) | Multi-agent pipeline automating end-to-end video production | Python, multi-agent |
 | [Spain Appointment Bot](https://github.com/Aashir01/spain-visa-appointment-bot) | Appointment tracking and notification automation | Python |
-| [March ML Mania 2026](https://github.com/Aashir01/-March-Machine-Learning-Mania-2026) | Kaggle tournament model — Elo, Pythagorean efficiency, Massey Ordinals, calibrated ensembles | Python, scikit-learn |
-| [My Portfolio](https://github.com/Aashir01/My_Portfolio) | Personal site — [aashirnoman.online](https://aashirnoman.online) | TypeScript, React |
+| [March ML Mania 2026](https://github.com/Aashir01/-March-Machine-Learning-Mania-2026) | Kaggle tournament model using Elo, Pythagorean efficiency, Massey Ordinals and calibrated ensembles | Python, scikit-learn |
+| [My Portfolio](https://github.com/Aashir01/My_Portfolio) | Personal site, live at [aashirnoman.online](https://aashirnoman.online) | TypeScript, React |
 | [Deep Learning Projects](https://github.com/Aashir01/Deep-Learning-Projects) | Applied DL notebooks and experiments | Jupyter, PyTorch |
 
 </details>
@@ -266,7 +266,7 @@ These aren't slogans — each one is load-bearing in the repos above.
 
 ## 🤝 Let's work together
 
-I'm open to **remote AI/ML engineering roles** and **long-term consulting engagements** — especially where an LLM system has to be trusted with something consequential: agent orchestration, retrieval over proprietary corpora, guardrails and approval workflows, or evaluation infrastructure for a team that's shipping fast and flying blind.
+I'm open to **remote AI/ML engineering roles** and **long-term consulting work**, especially where an LLM system has to be trusted with something that matters. In practice that means agent orchestration, retrieval over proprietary corpora, guardrails and approval workflows, or evaluation infrastructure for a team that's shipping fast and flying blind.
 
 **Good fit if you need:** an agent pipeline that degrades safely · retrieval that cites and refuses · evals that gate CI · a second opinion on where your LLM system will break.
 

@@ -9,7 +9,7 @@
 
 <!-- ═══════════════════════════ LINKS ═══════════════════════════ -->
 <p align="center">
-  <a href="https://aashirnoman.online"><img src="https://img.shields.io/badge/Portfolio-38BDAE?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://aashirnoman.dev"><img src="https://img.shields.io/badge/Portfolio-38BDAE?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/aashir-noman-138820152"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://www.upwork.com/freelancers/aashir1"><img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"/></a>
   <a href="https://orcid.org/0009-0004-2126-5419"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
@@ -257,7 +257,7 @@ None of these are slogans. Each one is load-bearing in the repos above.
 | [Nexus Motion](https://github.com/Aashir01/nexus-motion-AI-video-agency) | Multi-agent pipeline automating end-to-end video production | Python, multi-agent |
 | [Spain Appointment Bot](https://github.com/Aashir01/spain-visa-appointment-bot) | Appointment tracking and notification automation | Python |
 | [March ML Mania 2026](https://github.com/Aashir01/-March-Machine-Learning-Mania-2026) | Kaggle tournament model using Elo, Pythagorean efficiency, Massey Ordinals and calibrated ensembles | Python, scikit-learn |
-| [My Portfolio](https://github.com/Aashir01/My_Portfolio) | Personal site, live at [aashirnoman.online](https://aashirnoman.online) | TypeScript, React |
+| [My Portfolio](https://github.com/Aashir01/My_Portfolio) | Personal site, live at [aashirnoman.dev](https://aashirnoman.dev) | TypeScript, React |
 | [Deep Learning Projects](https://github.com/Aashir01/Deep-Learning-Projects) | Applied DL notebooks and experiments | Jupyter, PyTorch |
 
 </details>
@@ -272,7 +272,7 @@ I'm open to **remote AI/ML engineering roles** and **long-term consulting work**
 
 <p align="center">
   <a href="https://linkedin.com/in/aashir-noman-138820152"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://aashirnoman.online"><img src="https://img.shields.io/badge/View%20Portfolio-38BDAE?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://aashirnoman.dev"><img src="https://img.shields.io/badge/View%20Portfolio-38BDAE?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
   <a href="mailto:azac965@gmail.com"><img src="https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
